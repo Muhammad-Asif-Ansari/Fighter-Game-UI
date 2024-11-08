@@ -16,14 +16,14 @@ function abc() {
   }
   if(event.keyCode === 67){
     character.style.width = "300px"
-    character.style.height = "450px"
+    character.style.height = "400px"
     character.src = "./Images/chris-snap.gif"
     
   }
   if(event.keyCode === 68){
     character.style.width = "300px"
-    character.style.height = "450px"
-    character.src = "orochi-chris-kof2002-stance.gif"
+    character.style.height = "400px"
+    character.src = "./Images/orochi-chris-kof97-stance.gif"
     
   }
 }
@@ -52,7 +52,7 @@ function xyz() {
   if(event.keyCode === 72){
     character.style.width = "300px"
     character.style.height = "450px"
-    character.src = "orochi-chris-kof2002-stance.gif"
+    character.src = "./Images/orochi-chris-kof2002-stance.gif"
     
   }
 }
