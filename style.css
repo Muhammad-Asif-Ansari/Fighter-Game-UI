@@ -1,5 +1,7 @@
 body{
+    width: 100%;
     overflow: hidden;
+    margin: 0;
 }
 .main{
     background-image: url("Images/background.jpg");
@@ -13,14 +15,15 @@ body{
 
 .character{
     width: 300px;
-    height: 400px;
+    height: 500px;
     object-fit: cover;
     position: absolute;
     bottom: 10px;
+    left: 0;
 }
 .character1{
     width: 300px;
-    height: 400px;
+    height: 570px;
     object-fit: cover;
     position: absolute;
     bottom: 10px;
